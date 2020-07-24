@@ -1,11 +1,14 @@
 # mkdocs
-content/*
+mkdocs/content/*
+
+# Keep
 !.gitkeep
 
 # General
 .DS_Store
 .AppleDouble
 .LSOverride
+
 
 # Icon must end with two \r
 Icon

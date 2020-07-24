@@ -1,0 +1,28 @@
+# Document information
+site_name: 'Site Name'
+site_description: 'Site Description'
+site_author: 'Site Author'
+
+# Copyright
+copyright: 'Copyright (c) 2020'
+
+# Documentation and theme
+docs_dir: 'docs'
+theme:
+  name: 'material'
+  language: 'ja'
+  palette:
+    primary: 'light green'
+    accent: 'orange'
+
+extra_css:
+  - 'stylesheets/style.css'
+
+markdown_extensions:
+  - codehilite:
+      use_pygments: true
+      noclasses: true
+      pygments_style: monokai
+  - admonition
+  - toc:
+      permalink: '#'

@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  gatsby:
+    container_name: gatsby
+    build:
+      context: ./dockerfile
+      dockerfile: Dockerfile_gatsby
+    image: ssg/gatsby:2.23.12
+    working_dir: /app
+    ports:
+      - "10091:8000"
+    volumes:
+      - ./content:/app
+    tty: true
+    restart: unless-stopped

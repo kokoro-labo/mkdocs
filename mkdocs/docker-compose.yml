@@ -6,7 +6,7 @@ services:
     build:
       context: ./dockerfile
       dockerfile: Dockerfile_mkdocs
-    image: my/mkdocs:3.8.5
+    image: ssg/mkdocs:3.8.5
     working_dir: /home
     ports:
       - "10090:8000"

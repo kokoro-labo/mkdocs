@@ -1,6 +1,9 @@
 # mkdocs
 mkdocs/content/*
 
+# gatsby
+gatsby/content/*
+
 # Keep
 !.gitkeep
 

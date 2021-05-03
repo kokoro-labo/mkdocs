@@ -4,6 +4,9 @@ mkdocs/content/*
 # gatsby
 gatsby/content/*
 
+# Hugo
+hugo/content/*
+
 # Keep
 !.gitkeep
 

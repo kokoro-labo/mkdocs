@@ -1,0 +1,5 @@
+FROM klakegg/hugo:0.82.0-ubuntu
+
+RUN apt-get update && \
+    apt-get -y install git && \
+    apt-get clean

@@ -7,6 +7,9 @@ gatsby/content/*
 # Hugo
 hugo/content/*
 
+# Wikijs
+wikijs/content/*
+
 # Keep
 !.gitkeep
 

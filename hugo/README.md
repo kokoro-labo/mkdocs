@@ -38,11 +38,33 @@ update theme-git-url
 git submodule update --init
 ```
 
+### Add the posts
+
+```
+hugo new posts/add_post.md
+```
+
 ### Check site
 
 ```
 hugo server -D
 ```
+
+### Generate HTML
+
+```
+hugo
+```
+
+When publishing HTML on Github Pages...
+
+config.toml
+```
+publishDir = "docs"
+canonifyurls = true
+```
+
+References: https://qiita.com/ysdyt/items/a581277dd1312a0e83c3
 
 ## Appendix
 

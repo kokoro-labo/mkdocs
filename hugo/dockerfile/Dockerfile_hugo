@@ -1,5 +1,7 @@
-FROM klakegg/hugo:0.82.0-ubuntu
+FROM klakegg/hugo:0.82.1-ext-ubuntu
 
 RUN apt-get update && \
     apt-get -y install git && \
-    apt-get clean
+    apt-get clean && \
+    npm install autoprefixer && \
+    npm install postcss-cli

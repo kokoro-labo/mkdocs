@@ -7,7 +7,7 @@ services:
     build:
       context: ./dockerfile
       dockerfile: Dockerfile_hugo
-    image: ssg/hugo:0.82.0
+    image: ssg/hugo:0.82.1
     volumes:
         - "./content:/src"
     entrypoint: bash

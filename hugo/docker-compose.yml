@@ -11,6 +11,8 @@ services:
     volumes:
         - "./content:/src"
     entrypoint: bash
+    environment:
+      - TZ=Asia/Tokyo
     ports:
         - "10092:1313"
     tty: true

@@ -1,7 +1,9 @@
 FROM klakegg/hugo:0.82.1-ext-ubuntu
 
 RUN apt-get update && \
-    apt-get -y install git && \
+    DEBIAN_FRONTEND=noninteractive apt-get install -y \
+    git \
+    tzdata && \
     apt-get clean && \
     npm install autoprefixer && \
     npm install postcss-cli
